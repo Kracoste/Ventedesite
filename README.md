@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# weboria
 
-## Getting Started
+Site vitrine professionnel développé avec Next.js 15 (App Router) et TypeScript pour présenter les offres d'une agence spécialisée dans la création de sites web performants.
 
-First, run the development server:
+## Fonctionnalités
+- Pages vitrines dédiées : accueil, services, services détaillés, portfolio, à propos, contact
+- Contenus structurés dans `src/data` pour faciliter la maintenance
+- Components réutilisables (layouts, sections, UI) organisés par dossiers
+- Design responsive basé sur Tailwind CSS v4
+- Formulaire de contact interactif côté client
 
+## Démarrage
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Accédez ensuite à [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts utiles
+- `npm run dev` : démarrage du serveur de développement (Turbopack)
+- `npm run build` : compilation de la version de production
+- `npm run start` : exécution du build localement
+- `npm run lint` : vérification ESLint
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Structure principale
+```
+src/
+  app/
+    (site)/        # Pages publiques (App Router)
+    layout.tsx     # Layout racine (fonts, metadata)
+    globals.css    # Styles globaux
+  components/
+    layout/        # Header, footer, container, page header
+    sections/      # Sections de pages (hero, services, portfolio...)
+    ui/            # Composants UI réutilisables (boutons, cartes)
+  data/            # Contenus et metadata (services, projets, témoignages)
+  lib/             # Helpers (fonction utilitaire `cn`)
+public/
+  images/          # Illustrations SVG utilisées dans le site
+```
 
-## Learn More
+## Personnalisation
+- Mettez à jour les données dans `src/data` pour modifier les services, témoignages ou projets.
+- Les styles Tailwind peuvent être ajustés via `tailwind.config.ts` et `src/app/globals.css`.
+- Ajoutez vos visuels dans `public/images` et mettez à jour les chemins dans les fichiers de données.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Déploiement
+Le projet est prêt pour un déploiement sur Vercel ou toute plateforme compatible Next.js. Pensez à configurer les variables d'environnement nécessaires si vous ajoutez des intégrations (CRM, formulaires, etc.).
