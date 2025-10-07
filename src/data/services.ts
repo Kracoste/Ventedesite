@@ -18,25 +18,24 @@ export const services: Service[] = [
     name: "Site vitrine clé en main",
     tagline: "Présentez votre activité avec une image professionnelle",
     summary:
-      "Un site élégant en quelques semaines pour présenter vos services, attirer des prospects et gagner en crédibilité.",
+      "Un site élégant en quelques semaines pour présenter vos services, attirer des prospects.",
     description:
-      "Nous concevons un site vitrine moderne, responsive et orienté conversion. L'objectif est de mettre en avant votre offre, rassurer vos visiteurs et générer des prises de contact.",
+      "Un site à votre image chaque vitrine est conçue sur mesure pour raconter votre histoire, renforcer votre crédibilité et séduire vos futurs clients.",
     features: [
       "Design personnalisé aligné à votre identité",
       "Rédaction ou optimisation de vos contenus",
       "Référencement naturel optimisé (SEO)",
-      "Intégration des outils analytics et collecte de leads",
+      "Intégration des outils analytics",
     ],
     deliverables: [
       "Maquettes interactives",
       "Développement Next.js / React",
-      "Intégration CMS (si nécessaire)",
       "Formation à la prise en main",
     ],
-    timeline: "3 à 4 semaines",
+    timeline: "2 à 3 semaines",
     startingPrice: "À partir de 700 €",
     category: "vitrine",
-    ctaLabel: "Demander un devis vitrine",
+    ctaLabel: "Demander un devis",
   },
   {
     slug: "site-ecommerce",
@@ -45,11 +44,11 @@ export const services: Service[] = [
     summary:
       "Une boutique performante, sécurisée et adaptée à votre stratégie de vente en ligne.",
     description:
-      "Nous créons des sites e-commerce rapides et évolutifs, pensés pour optimiser votre catalogue, fluidifier le tunnel d'achat et augmenter votre panier moyen.",
+      "Nous créons des sites e-commerce rapides et évolutifs, pensés pour optimiser votre catalogue, fluidifier l’expérience client pour générer plus de ventes, plus vite.",
     features: [
       "Gestion de catalogue avancée",
-      "Paiements sécurisés (Stripe, PayPal, etc.)",
-      "Automation email & marketing",
+      "Ajout de modes de paiement sécurisés (Stripe, PayPal, etc.)",
+      "Automation email",
       "Monitoring des performances en temps réel",
     ],
     deliverables: [

@@ -109,26 +109,26 @@ function ServiceContent({ service }: { service: Service }) {
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             <div className="rounded-3xl border border-neutral-200 bg-white/80 p-6 text-sm text-neutral-600 shadow-card dark:border-neutral-800 dark:bg-neutral-900/80 dark:text-neutral-300">
               <h4 className="text-base font-semibold text-neutral-900 dark:text-neutral-50">
-                Création sur mesure
+                Un site a votre image
               </h4>
               <p className="mt-2">
-                Nous concevons chaque site comme un projet unique, pensé pour refléter votre marque et atteindre vos objectifs.
+                Chaque vitrine est conçue sur mesure pour raconter votre histoire, renforcer votre crédibilité et séduire vos futurs clients.
               </p>
             </div>
             <div className="rounded-3xl border border-neutral-200 bg-white/80 p-6 text-sm text-neutral-600 shadow-card dark:border-neutral-800 dark:bg-neutral-900/80 dark:text-neutral-300">
               <h4 className="text-base font-semibold text-neutral-900 dark:text-neutral-50">
-                Pilotage data-driven
+                Décisions basées sur les résultats
               </h4>
               <p className="mt-2">
-                KPI, analytics et tests A/B sont intégrés dès le lancement pour mesurer l&apos;impact de chaque évolution.
+                Nous analysons le comportement de vos visiteurs pour optimiser continuellement votre site et maximiser son impact.
               </p>
             </div>
             <div className="rounded-3xl border border-neutral-200 bg-white/80 p-6 text-sm text-neutral-600 shadow-card dark:border-neutral-800 dark:bg-neutral-900/80 dark:text-neutral-300">
               <h4 className="text-base font-semibold text-neutral-900 dark:text-neutral-50">
-                Connexion intelligente
+                Simplicité connectée
               </h4>
               <p className="mt-2">
-                Votre site s’intègre naturellement à vos process existants pour réduire les tâches répétitives et améliorer la productivité.
+                Nous créons des sites intuitifs qui facilitent vos opérations et optimisent votre temps au jour le jour.
               </p>
             </div>
           </div>
