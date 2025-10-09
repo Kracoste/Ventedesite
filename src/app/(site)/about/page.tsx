@@ -8,7 +8,7 @@ import { companyInfo } from "@/data/company";
 export const metadata: Metadata = {
   title: "À propos",
   description:
-    "Découvrez l'équipe weboria : designers, développeurs et stratèges réunis pour créer des expériences Next.js performantes.",
+    "Découvrez l'équipe webonia : designers, développeurs et stratèges réunis pour créer des expériences Next.js performantes.",
 };
 
 const teamMembers = [
@@ -38,7 +38,7 @@ const milestones = [
   {
     year: "2018",
     title: "Création du studio",
-    description: "Lancement de weboria pour démocratiser les sites performants.",
+    description: "Lancement de webonia pour démocratiser les sites performants.",
   },
   {
     year: "2020",

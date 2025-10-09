@@ -102,35 +102,22 @@ function ServiceContent({ service }: { service: Service }) {
           <SectionHeading
             eyebrow="Approche"
             title="Comment nous travaillons sur ce type de projet"
-            description="Un binôme designer / développeur dédié, des points hebdomadaires et un suivi produit rapproché."
+            description="Un développeur dédié, des points hebdomadaires et un suivi produit rapproché."
             alignment="center"
             className="mx-auto max-w-3xl"
           />
           <div className="mt-10 grid gap-6 md:grid-cols-3">
-            <div className="rounded-3xl border border-neutral-200 bg-white/80 p-6 text-sm text-neutral-600 shadow-card dark:border-neutral-800 dark:bg-neutral-900/80 dark:text-neutral-300">
-              <h4 className="text-base font-semibold text-neutral-900 dark:text-neutral-50">
-                Un site a votre image
-              </h4>
-              <p className="mt-2">
-                Chaque vitrine est conçue sur mesure pour raconter votre histoire, renforcer votre crédibilité et séduire vos futurs clients.
-              </p>
-            </div>
-            <div className="rounded-3xl border border-neutral-200 bg-white/80 p-6 text-sm text-neutral-600 shadow-card dark:border-neutral-800 dark:bg-neutral-900/80 dark:text-neutral-300">
-              <h4 className="text-base font-semibold text-neutral-900 dark:text-neutral-50">
-                Décisions basées sur les résultats
-              </h4>
-              <p className="mt-2">
-                Nous analysons le comportement de vos visiteurs pour optimiser continuellement votre site et maximiser son impact.
-              </p>
-            </div>
-            <div className="rounded-3xl border border-neutral-200 bg-white/80 p-6 text-sm text-neutral-600 shadow-card dark:border-neutral-800 dark:bg-neutral-900/80 dark:text-neutral-300">
-              <h4 className="text-base font-semibold text-neutral-900 dark:text-neutral-50">
-                Simplicité connectée
-              </h4>
-              <p className="mt-2">
-                Nous créons des sites intuitifs qui facilitent vos opérations et optimisent votre temps au jour le jour.
-              </p>
-            </div>
+            {service.approachHighlights.map((highlight) => (
+              <div
+                key={highlight.title}
+                className="rounded-3xl border border-neutral-200 bg-white/80 p-6 text-sm text-neutral-600 shadow-card dark:border-neutral-800 dark:bg-neutral-900/80 dark:text-neutral-300"
+              >
+                <h4 className="text-base font-semibold text-neutral-900 dark:text-neutral-50">
+                  {highlight.title}
+                </h4>
+                <p className="mt-2">{highlight.description}</p>
+              </div>
+            ))}
           </div>
         </Container>
       </section>

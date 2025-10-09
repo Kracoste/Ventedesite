@@ -6,7 +6,7 @@ import { companyInfo } from "@/data/company";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contactez l'équipe weboria pour obtenir un devis ou démarrer un projet Next.js.",
+  description: "Contactez l'équipe webonia pour obtenir un devis ou démarrer un projet Next.js.",
 };
 
 const contactHighlights = [

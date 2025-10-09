@@ -1,5 +1,5 @@
 export const companyInfo = {
-  name: "weboria",
+  name: "webonia",
   baseline: "Studio spécialisé en création de sites sur mesure",
   description:
     "Nous accompagnons les entreprises ambitieuses dans la conception d'expériences web performantes, du cadrage à la mise en production.",
@@ -9,14 +9,14 @@ export const companyInfo = {
     "Accompagnement long terme",
   ],
   contact: {
-    email: "weboria@gmail.com",
+    email: "webonia@gmail.com",
     phone: "+33 6 85 64 33 40",
     address: "24 rue du Web, 75011 Paris",
     hours: "Du lundi au vendredi, 9h - 18h",
   },
   socialLinks: [
-    { label: "LinkedIn", href: "https://www.linkedin.com/company/weboria" },
-    { label: "Dribbble", href: "https://dribbble.com/weboria" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/company/webonia" },
+    { label: "Dribbble", href: "https://dribbble.com/webonia" },
   ],
 };
 

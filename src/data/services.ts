@@ -4,6 +4,10 @@ export type Service = {
   tagline: string;
   summary: string;
   description: string;
+  approachHighlights: {
+    title: string;
+    description: string;
+  }[];
   features: string[];
   deliverables: string[];
   timeline: string;
@@ -21,6 +25,23 @@ export const services: Service[] = [
       "Un site élégant en quelques semaines pour présenter vos services, attirer des prospects.",
     description:
       "Un site à votre image chaque vitrine est conçue sur mesure pour raconter votre histoire, renforcer votre crédibilité et séduire vos futurs clients.",
+    approachHighlights: [
+      {
+        title: "Un parcours utilisateur calibré",
+        description:
+          "Nous structurons vos pages pour guider vos visiteurs vers l'action tout en valorisant vos points forts.",
+      },
+      {
+        title: "Un accompagnement éditorial",
+        description:
+          "Nous vous aidons à trouver les bons mots pour incarner votre positionnement et rassurer vos prospects.",
+      },
+      {
+        title: "Un déploiement express",
+        description:
+          "Nous livrons un site clé en main, optimisé techniquement et prêt à évoluer selon vos besoins.",
+      },
+    ],
     features: [
       "Design personnalisé aligné à votre identité",
       "Rédaction ou optimisation de vos contenus",
@@ -44,7 +65,24 @@ export const services: Service[] = [
     summary:
       "Une boutique performante, sécurisée et adaptée à votre stratégie de vente en ligne.",
     description:
-      "Nous créons des sites e-commerce rapides et évolutifs, pensés pour optimiser votre catalogue, fluidifier l’expérience client pour générer plus de ventes, plus vite.",
+      "Nous créons des sites e-commerce rapides et évolutifs, pensés pour optimiser votre catalogue, fluidifier l’expérience client pour générer plus de ventes",
+    approachHighlights: [
+      {
+        title: "Des tunnels d'achat optimisés",
+        description:
+          "Chaque étape est mesurée et ajustée pour maximiser vos ventes et diminuer les abandons de panier.",
+      },
+      {
+        title: "Un back-office intuitif",
+        description:
+          "Votre équipe gère facilement le catalogue, les stocks et les promotions depuis une interface claire.",
+      },
+      {
+        title: "Une logistique connectée",
+        description:
+          "Nous intégrons vos outils de paiement, d'expédition et de facturation pour automatiser vos opérations.",
+      },
+    ],
     features: [
       "Gestion de catalogue avancée",
       "Ajout de modes de paiement sécurisés (Stripe, PayPal, etc.)",
@@ -67,9 +105,26 @@ export const services: Service[] = [
     name: "Expérience digitale sur-mesure",
     tagline: "Développez un produit unique qui reflète votre vision",
     summary:
-      "Des interfaces et parcours personnalisés pour répondre à des besoins métiers spécifiques.",
+      "Des interfaces et parcours personnalisés pour répondre à des besoins/métiers spécifiques.",
     description:
-      "Nous vous accompagnons de la stratégie digitale jusqu'au développement technique complet d'une application ou d'un site complexe basés sur Next.js.",
+      "Nous vous accompagnons de la stratégie digitale jusqu'au développement technique complet d'une application ou d'un site complexe ",
+    approachHighlights: [
+      {
+        title: "Cadrage produit approfondi",
+        description:
+          "Nous définissons ensemble vos objectifs, vos personas et les indicateurs qui mesureront la réussite du projet.",
+      },
+      {
+        title: "Itérations pilotées par la valeur",
+        description:
+          "Chaque sprint livre une fonctionnalité testable afin de confronter rapidement vos idées au terrain.",
+      },
+      {
+        title: "Architecture évolutive",
+        description:
+          "Nous concevons un socle technique robuste, prêt à intégrer vos futurs services et à supporter la montée en charge.",
+      },
+    ],
     features: [
       "Co-conception UX/UI",
       "Intégration d'API tierces",
@@ -95,6 +150,23 @@ export const services: Service[] = [
       "Nous surveillons vos performances, corrigeons les bugs et faisons évoluer vos fonctionnalités en continu.",
     description:
       "Des forfaits flexibles pour assurer la fiabilité de votre site ou application Next.js, avec des indicateurs de performance suivis chaque mois.",
+    approachHighlights: [
+      {
+        title: "Un suivi proactif",
+        description:
+          "Nous détectons les anomalies de performance et de sécurité avant qu'elles n'impactent vos utilisateurs.",
+      },
+      {
+        title: "Des priorités partagées",
+        description:
+          "Chaque mois nous passons en revue vos objectifs business pour planifier les optimisations qui comptent.",
+      },
+      {
+        title: "Une équipe à la demande",
+        description:
+          "Vous disposez d'un point d'entrée unique pour vos questions, vos évolutions et vos urgences.",
+      },
+    ],
     features: [
       "Surveillance uptime & sécurité",
       "Optimisation continue du SEO",

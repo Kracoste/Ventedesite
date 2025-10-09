@@ -14,20 +14,20 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | weboria",
-    default: "Créez votre site Next.js professionnel | weboria",
+    template: "%s | webonia",
+    default: "Créez votre site Next.js professionnel | webonia",
   },
   description:
     "Studio spécialisé Next.js : conception de sites vitrines, e-commerce et solutions sur-mesure. Performance, design et accompagnement complet.",
   alternates: {
-    canonical: "https://weboria.com",
+    canonical: "https://webonia.com",
   },
   openGraph: {
-    title: "Créez votre site Next.js professionnel | weboria",
+    title: "Créez votre site Next.js professionnel | webonia",
     description:
       "Nous créons des sites vitrines, e-commerce et plateformes sur-mesure propulsés par Next.js.",
-    url: "https://weboria.com",
-    siteName: "weboria",
+    url: "https://webonia.com",
+    siteName: "webonia",
     locale: "fr_FR",
     type: "website",
   },

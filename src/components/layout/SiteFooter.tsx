@@ -10,7 +10,7 @@ export function SiteFooter() {
         <div className="space-y-4">
           <div className="text-lg font-semibold text-neutral-900 dark:text-neutral-50">
             <p className="text-sm uppercase tracking-[0.28em] text-neutral-500">
-              weboria
+              webonia
             </p>
           </div>
           <p className="max-w-sm text-sm leading-relaxed text-neutral-600 dark:text-neutral-300">

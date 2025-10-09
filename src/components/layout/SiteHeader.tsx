@@ -18,7 +18,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-neutral-200 bg-white/80 backdrop-blur-md dark:border-neutral-800 dark:bg-neutral-950/90">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 md:px-12">
         <Link href="/" className="text-xl font-semibold text-neutral-900 dark:text-neutral-100">
-          weboria
+          webonia
         </Link>
 
         <nav className="hidden items-center gap-8 text-sm font-medium text-neutral-600 dark:text-neutral-300 lg:flex">
